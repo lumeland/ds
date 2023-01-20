@@ -1,6 +1,10 @@
 @import "./fonts.css";
 @import "./variables.css";
 @import "./reset.css";
+
 @import "./components/badge.css";
-@import "./components/search.css";
+@import "./components/body.css";
+@import "./components/breadcrumb.css";
 @import "./components/code.css";
+@import "./components/search.css";
+@import "./components/toc.css";

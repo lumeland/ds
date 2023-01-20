@@ -19,6 +19,11 @@
     background-color: var(--color-highlight);
     border-radius: var(--pagefind-ui-border-radius);
     padding: 0 1em;
+    margin-top: 4px;
+  }
+
+  & .pagefind-ui__results-area {
+    margin-top: 0;
   }
 
   & .pagefind-ui__result {

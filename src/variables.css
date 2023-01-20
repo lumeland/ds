@@ -10,17 +10,16 @@
   --color-background: hsl(220, 20%, 100%);
   --color-highlight: hsl(220, 20%, 95%);
 
-  --code-text: black;
+  --code-text: var(--color-base);
   --code-comment: slategray;
   --code-token-1: #905;
   --code-token-2: #690;
   --code-token-2: #07a;
   --code-inserted: #690;
   --code-deleted: #905;
-  --code-border: #f5f2f0;
-  --code-background: #f5f2f0;
+  --code-border: var(--color-line);
+  --code-background: var(--color-highlight);
   --code-background-selection: #b3d4fc;
-}
 
   /* Fonts */
   --font-family-code: Consolas, Menlo, Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace;
@@ -45,6 +44,9 @@
   --row-gap-small: 2.5rem;
   --row-gap-medium: 5rem;
 
+  /* Other */
+  --border-radius: 6px;
+
   /* Pagefind */
   --pagefind-ui-scale: .8;
   --pagefind-ui-primary: var(--color-text);
@@ -53,8 +55,8 @@
   --pagefind-ui-border: var(--color-line);
   --pagefind-ui-tag: var(--color-highlight);
   --pagefind-ui-border-width: 1px;
-  --pagefind-ui-border-radius: 6px;
-  --pagefind-ui-image-border-radius: 6px;
+  --pagefind-ui-border-radius: var(--border-radius);
+  --pagefind-ui-image-border-radius: var(--border-radius);
   --pagefind-ui-image-box-ratio: 3 / 2;
   --pagefind-ui-font: var(--font-family-ui);
 }
@@ -79,8 +81,9 @@
     --color-link-hover: hsl(220, 20%, 70%);
     --color-line: hsl(220, 20%, 20%);
     --color-background: hsl(220, 20%, 10%);
+    --color-highlight: hsl(220, 20%, 15%);
 
-    --code-text: white;
+    --code-text: var(--color-base);
     --code-comment: hsl(0,0,47%);
     --code-token-1: hsl(53,89%,79%);
     --code-token-2: hsl(14,58%,55%);
@@ -88,8 +91,8 @@
     --code-token-4: hsl(42,75%,65%);
     --code-inserted: hsl(76,21%,52%);
     --code-deleted: hsl(14,58%,55%);
-    --code-border: hsl(0,0,33%);
-    --code-background: hsl(0,0,8%);
+    --code-border: var(--color-line);
+    --code-background: var(--color-highlight);
     --code-background-selection: hsla(0,0,93%,0.15);
   }
 }

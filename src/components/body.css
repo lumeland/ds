@@ -2,7 +2,6 @@
   font: var(--font-body);
   letter-spacing: var(--font-body-spacing);
   color: var(--color-text);
-  margin-top: var(--row-gap-xsmall);
 
   & > :first-child {
     margin-top: 0;

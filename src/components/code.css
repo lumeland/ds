@@ -1,60 +1,60 @@
 code[class*="language-"],
 pre[class*="language-"] {
-  color:var(--code-text);
-  direction:ltr;
-  font-family:Consolas,Monaco,'Andale Mono',monospace;
-  text-align:left;
-  white-space:pre;
-  word-spacing:normal;
-  word-break:normal;
-  line-height:1.5;
-  tab-size:4;
-  hyphens:none;
+  color: var(--code-text);
+  direction: ltr;
+  font-family: Consolas,Monaco,'Andale Mono',monospace;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  line-height: 1.5;
+  tab-size: 4;
+  hyphens: none;
 
   &::selection,
   & ::selection{
-    background:var(--code-background-selection);
+    background: var(--code-background-selection);
   }
 }
 pre[class*="language-"] {
-  background:var(--code-background);
-  border-radius:.5em;
-  border:.3em solid var(--code-border);
-  margin:.5em 0;
-  overflow:auto;
-  padding:1em
+  background: var(--code-background);
+  border-radius: .5em;
+  border: 1px solid var(--code-border);
+  margin: .5em 0;
+  overflow: auto;
+  padding: 1em;
 }
 
 :not(pre)>code[class*="language-"] {
-  background:var(--code-background);
-  border-radius:.3em;
-  border:.13em solid var(--code-border);
-  box-shadow:1px 1px .3em -.1em black inset;
-  padding:.15em .2em .05em
+  background: var(--code-background);
+  border-radius: .3em;
+  border: .13em solid var(--code-border);
+  box-shadow: 1px 1px .3em -.1em black inset;
+  padding: .15em .2em .05em
 }
 .token.punctuation,
 .namespace {
-  opacity:.7
+  opacity: .7
 }
 .token {
-  position:relative;
-  z-index:1;
+  position: relative;
+  z-index: 1;
 
   &.important,
   &.bold {
-    font-weight:bold
+    font-weight: bold
   }
   &.italic {
-    font-style:italic
+    font-style: italic
   }
   &.entity {
-    cursor:help
+    cursor: help
   }
   &.comment,
   &.prolog,
   &.doctype,
   &.cdata {
-    color:var(--code-comment);
+    color: var(--code-comment);
   }
   &.keyword,
   &.property,
@@ -62,18 +62,18 @@ pre[class*="language-"] {
   &.constant,
   &.symbol,
   &.builtin {
-    color:var(--code-token-1);
+    color: var(--code-token-1);
   }
   &.tag,
   &.boolean,
   &.number {
-    color:var(--code-token-2);
+    color: var(--code-token-2);
   }
   &.deleted {
-    color:var(--code-deleted);
+    color: var(--code-deleted);
   }
   &.inserted {
-    color:var(--code-inserted);
+    color: var(--code-inserted);
   }
   &.attr-name,
   &.attr-value,

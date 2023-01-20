@@ -1,0 +1,27 @@
+.search {
+  /* Pagefind tweaks */
+  & .pagefind-ui__search-input {
+    font-weight: normal;
+
+    &::placeholder {
+      opacity: 1;
+      color: var(--color-dim);
+    }
+
+    &:focus {
+      box-shadow: 0 1px 5px rgba(0,0,0,0.2);
+      border-color: var(--color-dim);
+      outline: 0;
+    }
+  }
+
+  & .pagefind-ui__drawer {
+    background-color: var(--color-highlight);
+    border-radius: var(--pagefind-ui-border-radius);
+    padding: 0 1em;
+  }
+
+  & .pagefind-ui__result {
+    border-bottom: none !important;
+  }
+}

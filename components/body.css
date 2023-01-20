@@ -25,6 +25,10 @@
     border-bottom: solid 1px var(--color-line);
   }
 
+  & img {
+    max-width: 100%;
+  }
+
   /** Toc */
   & .header-anchor {
     color: inherit;

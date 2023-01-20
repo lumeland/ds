@@ -18,6 +18,10 @@
     margin: 0;
   }
 
+  & li {
+    margin: .1em 0;
+  }
+
   & a {
     color: inherit;
   }

@@ -48,6 +48,17 @@ code {
   border-radius: 4px;
 }
 
+
+:focus {
+  z-index: 1;
+}
+:focus-visible {
+  outline-width: 1px;
+  outline-offset: 2px;
+  outline-style: solid;
+  outline-color: var(--color-line);
+}
+
 hr {
   border: 0;
   border-top: solid 1px var(--color-line);

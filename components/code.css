@@ -2,6 +2,7 @@ code[class*="language-"],
 pre[class*="language-"] {
   font: var(--font-code);
   color: var(--code-text);
+  border-radius: var(--border-radius);
   direction: ltr;
   text-align: left;
   white-space: pre;
@@ -17,7 +18,6 @@ pre[class*="language-"] {
 }
 pre[class*="language-"] {
   background: var(--code-background);
-  border-radius: .5em;
   border: 1px solid var(--code-border);
   margin: .5em 0;
   overflow: auto;
@@ -26,9 +26,7 @@ pre[class*="language-"] {
 
 :not(pre)>code[class*="language-"] {
   background: var(--code-background);
-  border-radius: .3em;
-  border: .13em solid var(--code-border);
-  box-shadow: 1px 1px .3em -.1em black inset;
+  border: 1px solid var(--code-border);
   padding: .15em .2em .05em
 }
 .token.punctuation,
@@ -74,7 +72,6 @@ pre[class*="language-"] {
   &.inserted {
     color: var(--code-inserted);
   }
-  &.attr-name,
   &.attr-value,
   &.string,
   &.char,
@@ -84,6 +81,7 @@ pre[class*="language-"] {
   &.variable {
     color: var(--code-token-3);
   }
+  &.attr-name,
   &.atrule,
   &.regex,
   &.important {

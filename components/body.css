@@ -31,11 +31,3 @@
     text-decoration: none;
   }
 }
-
-.body-empty {
-  font: var(--font-body-bold);
-  color: var(--color-dim);
-  padding: 1em;
-  background-color: var(--color-highlight);
-  border-radius: 6px;
-}

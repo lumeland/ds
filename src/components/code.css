@@ -1,13 +1,12 @@
 code[class*="language-"],
 pre[class*="language-"] {
+  font: var(--font-code);
   color: var(--code-text);
   direction: ltr;
-  font-family: Consolas,Monaco,'Andale Mono',monospace;
   text-align: left;
   white-space: pre;
   word-spacing: normal;
   word-break: normal;
-  line-height: 1.5;
   tab-size: 4;
   hyphens: none;
 

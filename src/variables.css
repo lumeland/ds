@@ -46,6 +46,7 @@
 
   /* Other */
   --border-radius: 6px;
+  --animation-duration: 0.2s;
 
   /* Pagefind */
   --pagefind-ui-scale: .8;

@@ -5,8 +5,6 @@ html {
 
 html,
 body {
-  padding: 0;
-  margin: 0;
   font: var(--font-ui);
   color: var(--color-base);
   background-color: var(--color-background);
@@ -53,14 +51,10 @@ code {
   z-index: 1;
 }
 :focus-visible {
-  outline-width: 1px;
-  outline-offset: 2px;
-  outline-style: solid;
   outline-color: var(--color-line);
 }
 
 hr {
-  border: 0;
-  border-top: solid 1px var(--color-line);
+  color: var(--color-line);
   margin: var(--row-gap-medium) 0;
 }

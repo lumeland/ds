@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   font: var(--font-small);
 
   & > li::after {

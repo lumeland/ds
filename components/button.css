@@ -1,29 +1,16 @@
 .button {
   background: var(--background, none);
   color: var(--color, currentColor);
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
   border: 0;
-  height: 2em;
-  padding: 0 .6em;
   font: var(--font-ui);
   border-radius: var(--border-radius);
-  cursor: pointer;
   transition-property: background-color, color;
   transition-duration: var(--animation-duration);
-  box-sizing: border-box;
-  vertical-align: middle;
   flex: 0 0 auto;
-  text-decoration: none;
-
-  &::-moz-focus-inner {
-    border: 0;
-  }
 
   &.is-small {
     font: var(--font-small);
+    min-height: 1em;
   }
 
   &.is-primary {
@@ -45,10 +32,5 @@
   &:hover {
     color: var(--color-hover, currentColor);
     background: var(--background-hover, none);
-  }
-  &:disabled {
-    cursor: default;
-    background: none;
-    opacity: .1;
   }
 }

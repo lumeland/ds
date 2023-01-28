@@ -4,8 +4,8 @@
   --color-base: hsl(220, 20%, 10%);
   --color-text: hsl(220, 20%, 20%);
   --color-dim: hsl(220, 20%, 40%);
-  --color-link: hsl(220, 60%, 50%);
-  --color-link-hover: hsl(220, 20%, 40%);
+  --color-link: var(--color-primary);
+  --color-link-hover: var(--color-primary-highlight);
   --color-line: hsl(220, 20%, 90%);
   --color-background: hsl(220, 20%, 100%);
   --color-highlight: hsl(220, 20%, 96%);
@@ -14,6 +14,7 @@
   --color-primary: hsl(0deg, 50%, 50%);
   --color-primary-highlight: hsl(0deg, 50%, 40%);
 
+  /* Code colors */
   --code-text: var(--color-base);
   --code-comment: slategray;
   --code-token-1: hsl(330, 90%, 30%);
@@ -67,6 +68,7 @@
   --pagefind-ui-font: var(--font-family-ui);
 }
 
+/* Support for variable fonts */
 @supports (font-variation-settings: normal) {
   :root {
     --font-family-ui: Inter, -apple-system, system-ui, sans-serif;
@@ -83,11 +85,13 @@
     --color-base: hsl(220, 20%, 100%);
     --color-text: hsl(220, 20%, 80%);
     --color-dim: hsl(220, 20%, 60%);
-    --color-link: hsl(220, 20%, 100%);
-    --color-link-hover: hsl(220, 20%, 70%);
+    
     --color-line: hsl(220, 20%, 20%);
     --color-background: hsl(220, 20%, 10%);
     --color-highlight: hsl(220, 20%, 15%);
+
+    --color-primary: hsl(0deg, 88%, 65%);
+    --color-primary-highlight: hsl(0deg, 88%, 70%);
 
     --code-text: var(--color-base);
     --code-comment: hsl(0, 0, 50%);

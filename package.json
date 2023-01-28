@@ -1,0 +1,34 @@
+{
+  "name": "@lumeland/ds",
+  "version": "0.1.0",
+  "description": "Common CSS code for Lume sites",
+  "license": "MIT",
+  "repository": "lumeland/ds",
+  "funding": "https://github.com/sponsors/oscarotero",
+  "author": {
+    "name": "Óscar Otero",
+    "email": "oom@oscarotero.com",
+    "url": "https://lume.land"
+  },
+  "main": "ds.css",
+  "style": "ds.css",
+  "files": [
+    "ds.css"
+  ],
+  "scripts": {
+    "build": "postcss src/main.css -o ds.css"
+  },
+  "keywords": [
+    "css",
+    "lume",
+    "design-system"
+  ],
+  "devDependencies": {
+    "cssnano": "^5.1.14",
+    "ui-normalize": "^0.1.0",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "postcss-import": "^15.1.0",
+    "postcss-nesting": "^10.2.0"
+  }
+}

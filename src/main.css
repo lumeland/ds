@@ -1,4 +1,4 @@
-@import "https://unpkg.com/ui-normalize@0.1.0/ui-normalize.css" layer(reset);
+@import "../node_modules/ui-normalize/ui-normalize.css";
 
 @import "./fonts.css";
 @import "./variables.css";

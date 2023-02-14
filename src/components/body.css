@@ -23,6 +23,7 @@
     font: var(--font-title);
     letter-spacing: var(--font-title-spacing);
     border-bottom: solid 1px var(--color-line);
+    padding-bottom: .2em;
   }
 
   & img {

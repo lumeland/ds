@@ -15,6 +15,7 @@
 
   & .pagefind-ui__search-clear {
     background: none;
+    z-index: 2;
   }
 
   & .pagefind-ui__drawer {

@@ -1,6 +1,6 @@
 {
   "name": "@lumeland/ds",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Common CSS code for Lume sites",
   "license": "MIT",
   "repository": "lumeland/ds",
@@ -16,7 +16,8 @@
     "ds.css"
   ],
   "scripts": {
-    "build": "postcss src/main.css -o ds.css"
+    "build": "postcss src/main.css -o ds.css",
+    "publish": "npm run build && npm publish"
   },
   "keywords": [
     "css",

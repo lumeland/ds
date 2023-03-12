@@ -13,6 +13,10 @@
     }
   }
 
+  & .pagefind-ui__search-clear {
+    background: none;
+  }
+
   & .pagefind-ui__drawer {
     background-color: var(--color-highlight);
     border-radius: var(--pagefind-ui-border-radius);

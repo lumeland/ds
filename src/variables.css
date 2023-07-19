@@ -94,7 +94,7 @@
     --color-primary-highlight: hsl(0deg, 88%, 70%);
 
     --code-text: var(--color-base);
-    --code-comment: hsl(0, 0, 50%);
+    --code-comment: hsl(0, 0%, 50%);
     --code-token-1: hsl(50, 90%, 80%);
     --code-token-2: hsl(15, 60%, 60%);
     --code-token-3: hsl(75, 20%, 50%);
@@ -103,6 +103,6 @@
     --code-deleted: hsl(15, 60%, 55%);
     --code-border: var(--color-line);
     --code-background: var(--color-highlight);
-    --code-background-selection: hsla(0,0,93%,0.15);
+    --code-background-selection: hsla(0,0%,93%,0.15);
   }
 }

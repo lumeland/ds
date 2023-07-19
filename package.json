@@ -1,6 +1,6 @@
 {
   "name": "@lumeland/ds",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Common CSS code for Lume sites",
   "license": "MIT",
   "repository": "lumeland/ds",
@@ -13,10 +13,11 @@
   "main": "ds.css",
   "style": "ds.css",
   "files": [
-    "ds.css"
+    "ds.css",
+    "src"
   ],
   "scripts": {
-    "build": "postcss src/main.css -o ds.css",
+    "build": "cp ./node_modules/ui-normalize/ui-normalize.css ./src/ui-normalize.css && postcss src/main.css -o ds.css",
     "publish": "npm run build && npm publish"
   },
   "keywords": [

@@ -35,4 +35,22 @@
     color: inherit;
     text-decoration: none;
   }
+
+  /** Footnote */
+  & sup > a {
+    text-decoration: none;
+    display: inline-block;
+    padding: .2em;
+    margin: 0 .1em;
+    line-height: 1;
+    background: var(--color-highlight);
+    border: solid 1px var(--color-highlight);
+
+    &:hover {
+      border-color: var(--color-primary);
+    }
+    &:target {
+      border: solid 1px var(--color-primary);
+    }
+  }
 }

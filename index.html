@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="ds.css">
+  <style>
+    body {
+      padding: 2em;
+    }
+  </style>
+</head>
+<body>
+  <h1>Title</h1>
+  <div class="body">
+    <h1>Title</h1>
+    <h2>Title</h2>
+    <h3>Title</h3>
+    <h4>Title</h4>
+    <h4>Title</h4>
+    <h5>Title</h5>
+
+    <p>Here is a footnote reference,<sup><a class="footnote-ref" href="#fn-1" id="fnref-1">1</a></sup> and <sup><a class="footnote-ref" href="#fn-2" id="fnref-2">2</a></sup>another. And this<sup><a class="footnote-ref" href="#fn-3" id="fnref-3">3</a></sup> is a long note.</p>
+  </div>
+
+  <aside role="note" class="footnotes">
+    <dl>
+      <div id="fn-1">
+        <dt><a href="#fnref-1">1</a></dt>
+        <dd><p>Here is the footnote.</p></dd>
+      </div>
+      
+      <div id="fn-2" class="footnote">
+        <dt><a href="#fnref-2">2</a></dt>
+        <dd><p>And here's another footnote.</p></dd>
+      </div>
+      
+      <div id="fn-3" class="footnote">
+        <dt><a href="#fnref-3">3</a></dt>
+        <dd>
+          <p>Here's one with multiple blocks.</p>
+          <p>Subsequent paragraphs are indented (4 spaces) to show that they belong to the previous footnote.</p>
+        </dd>
+      </div>
+    </dl>
+  </aside>
+</body>
+</html>

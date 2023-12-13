@@ -8,6 +8,7 @@ body {
   font: var(--font-ui);
   color: var(--color-base);
   background-color: var(--color-background);
+  overflow-wrap: break-word;
 }
 
 main {

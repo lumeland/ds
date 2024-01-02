@@ -3,7 +3,10 @@
   "version": "0.4.0",
   "description": "Common CSS code for Lume sites",
   "license": "MIT",
-  "repository": "lumeland/ds",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lumeland/ds.git"
+  },
   "funding": "https://github.com/sponsors/oscarotero",
   "author": {
     "name": "Óscar Otero",

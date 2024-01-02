@@ -1,0 +1,6 @@
+blockquote {
+  margin: 0;
+  padding-block: 1em;
+  padding-inline: 40px;
+  background-color: var(--color-highlight);
+}

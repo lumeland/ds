@@ -60,3 +60,7 @@ hr {
   color: var(--color-line);
   margin: var(--row-gap-medium) 0;
 }
+
+strong, b {
+  font-weight: var(--font-bold);
+}

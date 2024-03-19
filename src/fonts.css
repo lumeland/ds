@@ -1,1 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import "https://rsms.me/inter/inter.css";
+
+/* Support for variable fonts */
+@supports (font-variation-settings: normal) {
+  :root {
+    --font-family-display: InterDisplay, var(--font-family-ui);
+    --font-family-ui: InterVariable, -apple-system, system-ui, sans-serif;
+    --font-display-spacing: -0.03em;
+    --font-title-spacing: -0.015em;
+    --font-body-spacing: -0.01em;
+
+    font-feature-settings: 'liga' 1, 'calt' 1; /* fix for Chrome */
+  }
+}

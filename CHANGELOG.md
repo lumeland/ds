@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this
 project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.5.0] - Unreleased
+### Added
+- New `icon` component to add icons (with emojis).
+
+### Changed
+- Update Inter font to v4, using the variable format and InterDisplay for
+  headings.
+- Improved code highlight colors.
+- Improved font sizes and colors.
+- Use `[data-theme]` attribute instead of media queries to detect light/dark
+  mode. This allows to change the theme dynamically.
+- Use font weight `600` instead of `bold` (which is `700`).
+
+### Fixed
+- Fixed the layout of the pagination component.
+
 ## [0.4.0] - 2024-01-02
 ### Added
 - New `blockquote` component [#2].
@@ -61,6 +77,7 @@ First version
 [#1]: https://github.com/lumeland/ds/issues/1
 [#2]: https://github.com/lumeland/ds/issues/2
 
+[0.5.0]: https://github.com/lumeland/ds/compare/v0.4.0...HEAD
 [0.4.0]: https://github.com/lumeland/ds/compare/v0.3.3...v0.4.0
 [0.3.3]: https://github.com/lumeland/ds/compare/v0.3.2...v0.3.3
 [0.3.2]: https://github.com/lumeland/ds/compare/v0.3.1...v0.3.2

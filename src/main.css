@@ -1,9 +1,10 @@
 @import "./ui-normalize.css";
 
-@import "./fonts.css";
 @import "./variables.css";
+@import "./fonts.css";
 @import "./reset.css";
 
+@import "./components/icon.css";
 @import "./components/badge.css";
 @import "./components/body.css";
 @import "./components/blockquote.css";

@@ -1,0 +1,9 @@
+.icon {
+  display: inline-flex;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  line-height: 0;
+  align-items: center;
+  justify-content: center;
+}

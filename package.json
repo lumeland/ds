@@ -1,6 +1,6 @@
 {
   "name": "@lumeland/ds",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Common CSS code for Lume sites",
   "license": "MIT",
   "repository": {
@@ -20,7 +20,7 @@
     "src"
   ],
   "scripts": {
-    "build": "cp ./node_modules/ui-normalize/ui-normalize.css ./src/ui-normalize.css && postcss src/main.css -o ds.css",
+    "build": "cp ./node_modules/modern-normalize/modern-normalize.css ./src/normalize.css && postcss src/main.css -o ds.css",
     "publish": "npm run build && npm publish"
   },
   "keywords": [
@@ -30,7 +30,7 @@
   ],
   "devDependencies": {
     "cssnano": "^5.1.14",
-    "ui-normalize": "^0.1.0",
+    "modern-normalize": "^2.0.0",
     "postcss": "^8.4.21",
     "postcss-cli": "^10.1.0",
     "postcss-import": "^15.1.0",

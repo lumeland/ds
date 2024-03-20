@@ -1,6 +1,9 @@
 html {
   scroll-padding-top: 120px;
   scroll-behavior: smooth;
+  text-rendering: auto;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 html,
@@ -52,15 +55,22 @@ code {
 :focus {
   z-index: 1;
 }
+
 :focus-visible {
+  outline-width: 1px;
+  outline-offset: 2px;
+  outline-style: solid;
   outline-color: var(--color-line);
 }
 
 hr {
   color: var(--color-line);
   margin: var(--row-gap-medium) 0;
+  border: none;
+  border-top: solid 1px;
+  background: none;
 }
 
-strong, b {
+h1, h2, h3, h4, h5, h6, strong, b {
   font-weight: var(--font-bold);
 }

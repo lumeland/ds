@@ -7,6 +7,7 @@ project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.7.2] - Unreleased
 ### Fixed
 - `--color-highlight` in dark mode should be a bit darker.
+- `--color-dim` in dark mode should be a bit lighter.
 - Inline `code` styles are too strong.
 
 ## [0.5.1] - 2024-03-20

@@ -46,9 +46,10 @@ code {
 }
 
 :not(pre) > code {
-  background: var(--color-line);
+  background: var(--color-highlight);
   padding: 0 .2rem;
   border-radius: 4px;
+  solid 1px var(--color-line);
 }
 
 

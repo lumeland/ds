@@ -28,6 +28,12 @@
     padding-bottom: .2em;
   }
 
+  h1, h2,
+  :not(pre) > code,
+  b, strong {
+    color: var(--color-base);
+  }
+
   & img {
     max-width: 100%;
   }
@@ -63,7 +69,7 @@
     padding: .5rem 1rem;
     border-left: solid 4px var(--color);
     font: var(--font-ui);
-    color: var(--color-dim);
+    color: var(--color-text);
 
     & :last-child {
       margin-bottom: 0;

@@ -9,6 +9,9 @@ project adheres to [Semantic Versioning](http://semver.org/).
 - `--color-highlight` in dark mode should be a bit darker.
 - `--color-dim` in dark mode should be a bit lighter.
 - Inline `code` styles are too strong.
+- The text of the alerts is too light.
+- Small tweaks of `<code>` tags.
+- Make bold and code texts visually stronger.
 
 ## [0.5.1] - 2024-03-20
 ### Added

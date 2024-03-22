@@ -49,9 +49,10 @@ code {
   background: var(--color-highlight);
   padding: 0 .2rem;
   border-radius: 4px;
-  solid 1px var(--color-line);
+  font-size: .95em;
+  letter-spacing: inherit;
+  color: var(--color-text);
 }
-
 
 :focus {
   z-index: 1;
@@ -74,4 +75,5 @@ hr {
 
 h1, h2, h3, h4, h5, h6, strong, b {
   font-weight: var(--font-bold);
+  color: var(--color-text);
 }

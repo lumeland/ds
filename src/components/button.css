@@ -8,11 +8,11 @@
   transition-duration: var(--animation-duration);
   flex: 0 0 auto;
   display: inline-flex;
-  column-gap: .5em;
+  column-gap: 0.5em;
   align-items: center;
   justify-content: center;
   text-align: center;
-  padding: .6em;
+  padding: 0.6em;
   min-height: 2.5em;
   text-decoration: none;
   cursor: pointer;
@@ -20,7 +20,7 @@
   &:disabled,
   &[aria-disabled="true"] {
     cursor: default;
-    opacity: .33;
+    opacity: 0.33;
     pointer-events: none;
   }
 

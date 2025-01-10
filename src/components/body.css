@@ -9,7 +9,7 @@
 
   & h2, & h3, & h4, & h5, & h6 {
     color: var(--color-base);
-    margin: 1.5em 0 .5em 0;
+    margin: 1.5em 0 0.5em 0;
     text-wrap: balance;
   }
 
@@ -17,7 +17,7 @@
     font: var(--font-display);
     letter-spacing: var(--font-display-spacing);
     border-bottom: solid 1px var(--color-line);
-    padding-bottom: .1em;
+    padding-bottom: 0.1em;
     text-wrap: balance;
   }
 
@@ -25,12 +25,10 @@
     font: var(--font-title);
     letter-spacing: var(--font-title-spacing);
     border-bottom: solid 1px var(--color-line);
-    padding-bottom: .2em;
+    padding-bottom: 0.2em;
   }
 
-  h1, h2,
-  :not(pre) > code,
-  b, strong {
+  h1, h2, :not(pre) > code, b, strong {
     color: var(--color-base);
   }
 
@@ -46,7 +44,7 @@
     color: var(--color-base);
   }
   th, td {
-    padding: .2em 1em;
+    padding: 0.2em 1em;
     border-top: solid 1px var(--color-line);
     border-bottom: solid 1px var(--color-line);
   }
@@ -65,8 +63,8 @@
   & sup > a {
     text-decoration: none;
     display: inline-block;
-    padding: .2em;
-    margin: 0 .1em;
+    padding: 0.2em;
+    margin: 0 0.1em;
     line-height: 1;
     background: var(--color-highlight);
     border: solid 1px var(--color-highlight);
@@ -83,7 +81,7 @@
     --color: currentColor;
 
     margin-block: 1.5rem;
-    padding: .5rem 1rem;
+    padding: 0.5rem 1rem;
     border-left: solid 4px var(--color);
     font: var(--font-ui);
     color: var(--color-text);
@@ -99,7 +97,7 @@
     margin: 0;
     display: flex;
     align-items: center;
-    column-gap: .5em;
+    column-gap: 0.5em;
 
     &::before {
       content: "";

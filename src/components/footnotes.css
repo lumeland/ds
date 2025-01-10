@@ -7,14 +7,14 @@
     margin: 0;
 
     & > div {
-      padding: .5em;
+      padding: 0.5em;
 
       &:target {
         outline: 1px dashed var(--color-primary);
       }
 
       & + div {
-        margin-top: .5em;
+        margin-top: 0.5em;
       }
     }
   }
@@ -23,7 +23,7 @@
     float: left;
     margin-right: 1em;
     font-weight: bold;
-    
+
     & a {
       text-decoration: none;
       color: var(--color-base);

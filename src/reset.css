@@ -47,9 +47,9 @@ code {
 
 :not(pre) > code {
   background: var(--color-highlight);
-  padding: 0 .2rem;
+  padding: 0 0.2rem;
   border-radius: 4px;
-  font-size: .95em;
+  font-size: 0.95em;
   letter-spacing: inherit;
   color: var(--color-text);
 }

@@ -45,6 +45,10 @@ code {
   font-variant-ligatures: none;
 }
 
+pre {
+  overflow-x: auto;
+}
+
 :not(pre) > code {
   background: var(--color-highlight);
   padding: 0 0.2rem;

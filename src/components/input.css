@@ -1,0 +1,28 @@
+.input {
+  --color: currentColor;
+  --size: 2.5em;
+
+  background: inherit;
+  border: 1px solid;
+  color: var(--color);
+  display: block;
+  min-height: var(--size);
+  padding: 0.7em;
+  width: 100%;
+
+  &:disabled {
+    opacity: 0.33;
+    pointer-events: none;
+  }
+
+  &::placeholder {
+    color: var(--color);
+    opacity: 0.5;
+  }
+}
+
+textarea.input {
+  -webkit-appearance: initial;
+  min-height: 3em;
+  resize: vertical;
+}

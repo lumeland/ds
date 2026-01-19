@@ -1,0 +1,23 @@
+.select {
+  --height: 2.5em;
+  --marker-image: url('data:image/svg+xml;charset=utf-8,<svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="m8 9.586 5.293-5.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.414 0l-6-6a1 1 0 0 1 1.414-1.414L8 9.586Z" fill="%23000"/></svg>');
+
+  appearance: none;
+  background: var(--marker-image) no-repeat center right 0.5em;
+  background-size: 1em 1em;
+  border: 1px solid;
+  border-radius: 0;
+  color: inherit;
+  font: var(--font-ui);
+  display: block;
+  min-height: var(--height);
+  padding: 0.6em 2em 0.6em 0.6em;
+  cursor: pointer;
+
+  &:disabled,
+  &[aria-disabled="true"] {
+    cursor: default;
+    opacity: 0.33;
+    pointer-events: none;
+  }
+}

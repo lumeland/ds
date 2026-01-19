@@ -1,0 +1,31 @@
+.checkbox {
+  --color: currentColor;
+  --size: 1.5em;
+  --icon-checked: url('data:image/svg+xml;charset=utf-8,<svg width="16" height="16" fill="%23fff" xmlns="http://www.w3.org/2000/svg"><path d="M13.92 3c.297 0 .552.109.763.326.211.217.317.48.317.786 0 .307-.107.57-.32.79l-7.56 7.777a1.02 1.02 0 0 1-.76.321 1.03 1.03 0 0 1-.768-.321l-4.28-4.394A1.09 1.09 0 0 1 1 7.495c0-.307.106-.57.317-.787.21-.217.466-.325.764-.325s.555.11.77.33l3.51 3.611 6.79-6.994c.213-.22.47-.33.768-.33Z"/></svg>');
+  --icon-indeterminate: url('data:image/svg+xml;charset=utf-8,<svg width="16" height="16" fill="%23fff" xmlns="http://www.w3.org/2000/svg"><path d="M1 8a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H2a1 1 0 0 1-1-1Z"/></svg>');
+
+  accent-color: currentColor;
+  appearance: none;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  border: 1px solid;
+  color: var(--color);
+  height: var(--size);
+  transition: background-color 0.2s;
+  vertical-align: middle;
+  width: var(--size);
+  cursor: pointer;
+
+  &:checked {
+    background-color: var(--color);
+    background-image: var(--icon-checked);
+  }
+  &:indeterminate {
+    background-color: var(--color);
+    background-image: var(--icon-indeterminate);
+  }
+  &:disabled {
+    opacity: 0.33;
+    pointer-events: none;
+  }
+}

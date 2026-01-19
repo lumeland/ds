@@ -1,0 +1,41 @@
+.progress {
+  --color: currentColor;
+  --background: transparent;
+  --size: 0.5em;
+
+  background: var(--background);
+  border: 1px solid;
+  display: block;
+  height: var(--size);
+  width: 100%;
+
+  &::-webkit-progress-value {
+    background: var(--color);
+    height: calc(100% + 1px);
+    position: relative;
+    top: -1px;
+  }
+  &::-webkit-progress-bar {
+    background: var(--background);
+  }
+  &::-moz-&-bar {
+    background: var(--color);
+  }
+  &:indeterminate {
+    animation: progressIndeterminate 1s linear infinite alternate;
+    background: linear-gradient(var(--color), var(--color)) no-repeat;
+    background-size: 25% 100%;
+  }
+  &:indeterminate::-moz-progress-bar {
+    background: var(--background);
+  }
+}
+
+@keyframes progressIndeterminate {
+  0% {
+    background-position-x: 0;
+  }
+  to {
+    background-position-x: 100%;
+  }
+}

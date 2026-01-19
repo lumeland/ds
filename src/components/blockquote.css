@@ -1,8 +1,12 @@
-blockquote {
+.blockquote {
+  --color: var(--color-dim);
+  --background: var(--color-highlight);
+  --border: var(--color-line);
+
+  color: var(--color);
+  background-color: var(--background);
+  border-left: solid 4px var(--border);
   margin: 1.5em 0;
   padding-block: 0.75em;
   padding-inline: 1.5em;
-  background-color: var(--color-highlight);
-  border-left: solid 4px var(--color-line);
-  color: var(--color-dim);
 }

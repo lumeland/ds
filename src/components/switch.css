@@ -1,0 +1,28 @@
+.switch {
+  --icon: url('data:image/svg+xml;charset=utf-8,<svg width="16" height="16" fill="%23fff" xmlns="http://www.w3.org/2000/svg"><circle cx="8" cy="8" r="8"/></svg>');
+  --color-off: gray;
+  --color-on: currentColor;
+
+  border: none;
+  padding: 0;
+
+  &:before {
+    background: var(--icon) no-repeat 0 currentColor;
+    background-size: 2em 2em;
+    border: 1px solid;
+    border-radius: 1em;
+    color: var(--color-off);
+    content: "";
+    display: block;
+    flex: 0 0 auto;
+    height: 2em;
+    transition-duration: 0.2s;
+    transition-property: background-color, background-position;
+    width: 3.5em;
+  }
+
+  &[aria-checked="true"]:before {
+    background-position-x: right;
+    color: var(--color-on);
+  }
+}
